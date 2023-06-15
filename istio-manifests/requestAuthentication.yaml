@@ -1,7 +1,7 @@
 apiVersion: security.istio.io/v1beta1
 kind: RequestAuthentication
 metadata:
-  name: book-info-auth
+  name: book-info-request-authentication
 spec:
   selector:
     matchLabels:

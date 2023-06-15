@@ -3,8 +3,8 @@ This is a simple book-info app which requires mysql db to store information abou
 
 ## Installing app on kubernetes
 ```
-kubectl apply -f database.yaml
-kubectl apply -f app.yaml
+kubectl apply -f app/database.yaml
+kubectl apply -f app/app.yaml
 ```
 
 ## Access API endpoints to add and view books
