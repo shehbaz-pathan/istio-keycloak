@@ -7,5 +7,5 @@ spec:
     matchLabels:
      app: book-info
   jwtRules:
-  - issuer: "http://keycloak:8080/realms/istio"
-    jwksUri: "http://keycloak:8080/realms/istio/protocol/openid-connect/certs"
+  - issuer: "http://keycloak:8080/realms/Istio"
+    jwksUri: "http://keycloak:8080/realms/Istio/protocol/openid-connect/certs"
